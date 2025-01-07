@@ -8,7 +8,6 @@
                     <x-application-logo class="block h-12 w-auto fill-current text-gray-800 dark:text-gray-200" /> 
                 </a>
             </div>
-
            <div class="flex flex-col gap-6">
             <div class="hidden sm:flex sm:flex-col sm:items-center sm:mt-6"> 
                 <x-dropdown align="center" width="48">
@@ -23,7 +22,6 @@
                             </div>
                         </button>
                     </x-slot>
-
                     <x-slot name="content">
                         <x-dropdown-link :href="route('profile.edit')">
                             {{ __('Profile') }}
